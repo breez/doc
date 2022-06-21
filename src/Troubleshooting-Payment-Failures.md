@@ -1,3 +1,5 @@
+# Troubleshooting Payment Failures
+
 Breez is a non-custodial service that uses lnd and Neutrino under the hood.
 This routing is done on the client side using the graph information provided by lnd. 
 
