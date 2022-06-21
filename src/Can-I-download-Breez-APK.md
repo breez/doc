@@ -1,0 +1,1 @@
+[Yes.](https://github.com/breez/breezmobile/releases/download/0.12.sp3/1653897482-1.apk) Android 7+, 64bit is required. 
