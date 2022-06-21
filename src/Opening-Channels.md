@@ -1,3 +1,5 @@
+# Creating Channels
+
 By default, Breez creates channels on the fly from the Breez routing node in case you don't have enough inbound liquidity to receive a payment. 
 
 However, there are several ways to create channels with other nodes in Breez:
