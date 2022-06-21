@@ -22,8 +22,8 @@
 # For Merchants
 
 - [How to Get Started with Breez POS](How-to-Get-Started-with-Breez-POS.md)
-- [Short demo](https://m.youtube.com/watch?v=0knlEAnFTs0)
-- [Long demo](https://m.youtube.com/watch?v=TjdS3fTOZ04)
+  - [Short demo](https://m.youtube.com/watch?v=0knlEAnFTs0)
+  - [Long demo](https://m.youtube.com/watch?v=TjdS3fTOZ04)
 
 # For Podcasters
 
