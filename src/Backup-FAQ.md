@@ -1,3 +1,5 @@
+# Backup FAQ
+
 ### Important note
 Restore your wallet only if you've lost your device or accidentally uninstalled Breez. If you have problems with Breez, most likely restoring from backup won't fix them.
 
