@@ -14,7 +14,7 @@
 - [Sending coins](./Sending-coins.md)
 - [Bitcoin node synchronization](./Bitcoin-node-synchronization.md)
 - [Connecting a Bitcoin node](./Connecting-a-Bitcoin-node-supporting-BIP-157.md)
-- [What's the deal with the 600 sats](./What's-the-deal-with-the-600-sats.md)?
+- [What's the deal with the 600 sats?](./What's-the-deal-with-the-600-sats.md)
 
 ------------------------
 
