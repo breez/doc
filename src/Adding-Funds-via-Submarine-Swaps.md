@@ -1,3 +1,5 @@
+# Adding Funds via Submarine Swaps
+
 When adding funds via a BTC address, Breez uses something called [Submarine Swaps](https://www.google.com/amp/s/blog.muun.com/a-closer-look-at-submarine-swaps-in-the-lightning-network/amp/): it's a script address that guarantees that the funds in the provided address can be spent only if a Lightning tx is executed to the user's node within 288 blocks (~48 hours). If a Lightning tx isn't executed in this timeframe, the user is allowed to redeem the funds, but only after the time lock expires.
 
 _Note for advanced users_: The Submarine Swaps script can be exported from Breez by long-click on the QR code of the address.
