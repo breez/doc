@@ -20,7 +20,7 @@ You can see manage it via Drive: **Settings > Manage Apps** in the browser.
 ### Can I switch from Android to iOS and vice versa?
 Yes, by storing your backup in Google Drive or Remove Server which are supported on both platforms. To switch cloud provider, use the **Store Backup Data in** setting in the **Preferences > Security & Backup** screen.
 ### I can't authenticate to Nextcloud. What can I do?
-Create an [app password](https://docs.nextcloudpi.com/en/two-factor-authentication-for-nextcloud/), enter the new app credentials and retry.
+Create an [app password](https://help.nextcloud.com/t/app-name-and-app-password/71890), enter the new app credentials and retry.
 ### Do you support pCloud?
 Yes, but a business account is required (with WebDav support). URL should be entered in the below format:
 * pCloud (US)- https://webdav.pcloud.com
