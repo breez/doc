@@ -1,3 +1,5 @@
+# Closed Channel
+
 In Lightning Network, your channel can get closed, even you didn't actively closed it (e.g. force-closed by your peer). This can happen due to bad behaviour of nodes in the network (holding funds w/o settling them), or the Breez LSP may close your channel after a period of inactivity (at least 45 days without executing Lightning transactions). Furthermore, there are still issues (bugs) in lnd (the Lightning Network implementation Breez uses) that may cause your channel to get closed.
 
 However, even in this case, you are still in full control of your funds (if they amount is above dust value). When a channel get closed, your funds are sent to the block hain. Typically it takes 144 blocks to send your funds from the closed channel to your a local wallet (aka sweep transaction). After the second tx is confirmed (from the closed channel tx to your local wallet), Breez displays an interface that allows you to redeem them. You should see a warning icon on top right corner of its home screen. If no warning icon is displayed, it probably means the closing process wasn't yet completed.
