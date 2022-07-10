@@ -2,7 +2,9 @@
 [Introducing Breez](./Introducing-Breez.md)
 
 # For Users
+
 [Troubleshooting Payment Failures](./Troubleshooting-Payment-Failures.md)
+
 [What's the deal with the 600 sats](./What's-the-deal-with-the-600-sats.md)
 [Backup FAQ](./Backup-FAQ.md)
 [Opening Channels](./Opening-Channels.md)
