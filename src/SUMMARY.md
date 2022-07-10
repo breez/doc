@@ -3,9 +3,9 @@
 
 # For Users
 
-* [Troubleshooting Payment Failures](./Troubleshooting-Payment-Failures.md)
+## [Troubleshooting Payment Failures](./Troubleshooting-Payment-Failures.md)
 
-[What's the deal with the 600 sats](./What's-the-deal-with-the-600-sats.md)
+- [What's the deal with the 600 sats](./What's-the-deal-with-the-600-sats.md)
 [Backup FAQ](./Backup-FAQ.md)
 [Opening Channels](./Opening-Channels.md)
 [Closed Channel](./Closed-Channel.md)
