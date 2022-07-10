@@ -15,7 +15,7 @@
 - [Bitcoin node synchronization](./Bitcoin-node-synchronization.md)
 - [Connecting a Bitcoin node supporting BIP 157](./Connecting-a-Bitcoin-node-supporting-BIP-157.md)
 - [What's the deal with the 600 sats](./What's-the-deal-with-the-600-sats.md)
-- 
+
 ------------------------
 
 # For Merchants
