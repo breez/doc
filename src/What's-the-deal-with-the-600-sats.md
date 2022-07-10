@@ -1,3 +1,5 @@
+# What's the deal with the 600 sats?
+
 Prior to Breez 0.11, you had to keep 600 sats in its balance because of something called [Channel Reserve](https://link.medium.com/W2dwNuc583). It's a mechanism in Lightning Network that prevents an attack of repeatedly opening and closing channels. Breez is an [open client](https://medium.com/breez-technology/sources-of-centralization-on-lightning-and-why-they-matter-b7aa3352231f) and follows the BOLT specifications.
 
 The default in Lightning Network is to have a channel reserve of 1% from the channel capacity (e.g. 10k sats for a 1M sats channel). In Breez's fork of lnd, we've allowed [LSPs](https://medium.com/breez-technology/introducing-lightning-service-providers-fe9fb1665d5f) to set their own [channel reserve value](https://github.com/lightningnetwork/lnd/pull/2708). Breez sets the value to 600 sats, which is a minimal, near-dust value.
