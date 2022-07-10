@@ -1,11 +1,13 @@
-# Active Bounties
+# Bounties
+
+## Active Bounties
 
 Breez is offering bounties for the tasks listed below. Relevant PRs must be reviewed and merged before developers could claim a relevant bounty. To inquire about status of a bounty, to contribute to a bounty, or to propose a new bounty please email contact (at) breez (dot) technology. 
 
 Please read the [[Overview for Developers]] before getting started. The Tor implementation should probably be in the go layer (Bree library). Please feel free to open issues and communicate with us to figure our the right architecture. 
 
-# Past Bounties
-## Tor support
+## Past Bounties
+### Tor support
 **Description**: add support for Tor. There are few reasons we want to support Tor, mainly:
 1. We want to allow people to connect to other Lightning nodes using Tor (see [[Opening Channels]]).
 2. We have user in some countries that can't use the app. Their ISPs seem to block the on-chain traffic (Breez uses Neutrino BIP 157 to communicate with the chain).
@@ -18,7 +20,7 @@ Please read the [[Overview for Developers]] before getting started. The Tor impl
 
 **Bounty claimed by** [Nick Ochiel](https://github.com/nochiel) (5M sats).
 
-## LNURL-Pay support
+### LNURL-Pay support
 **Description**: add support for LNURL-Pay links and QRs. Support should follow a similar architecture to existing supported LNURLs like LNURL-Withdraw and tested against services using LNURL-Pay such as Zebedee.   
 
 **Payout**: 1.5M sats (0.015 btc)
@@ -29,8 +31,8 @@ Please read the [[Overview for Developers]] before getting started. The Tor impl
 
 Please read: [[LNURL-Pay dev tips]] before starting your implementation.
 
-# Donations
+## Donations
 To donate to our bounties, please use our [tippin'](https://tippin.me/@Breez_Tech) page. Add the bounty name and your Twitter handle (if you want to be credited).
 
-# Developer resources
+## Developer resources
 * [[Overview for Developers]]
