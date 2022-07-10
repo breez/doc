@@ -38,5 +38,4 @@
 - [Running Breez in simnet](Running-Breez-in-simnet.md)
 - [Adding a WebLN widget with LNURL-Auth](Adding-a-WebLN-widget-with-LNURL-Auth.md)
 - [Bounties](Bounties.md)
-- [LNURL-Pay-dev-tips](LNURL-Pay-dev-tips.md)
 - [Adding a translation to an unsupported language](Adding-a-translation-to-an-unsupported-language.md)
