@@ -1,3 +1,5 @@
+# How to Get Started with Breez POS?
+
 ## What is Breez POS?
 [Breez](https://breez.technology/technology.html) is a full-service, non-custodial Lightning app. Let’s break that down:
 * **Lightning** is a bitcoin payment network that reduces transaction times from minutes to milliseconds and transaction fees from several dollars to a few cents or less. Lightning turns bitcoin from digital gold into digital currency while preserving all of the benefits that make bitcoin great. 
