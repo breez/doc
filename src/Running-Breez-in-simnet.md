@@ -1,3 +1,5 @@
+# Running Breez in simnet
+
 Developing Breez mobile requires Breez backend services to be up and running. As there are a few services that are configured to run together, it might be a headache to configure everything from scratch. Although we recommend to understand each of the services and the overall architecture, we do provide a quick solution to run all Breez services in a simnet environment which developers can connect to from their self-compiled Breez mobile app.
 These are the required backend services:
 * LSP node: a Lightning node that opens a channel with the Breez mobile app.
