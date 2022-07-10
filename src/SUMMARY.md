@@ -2,7 +2,6 @@
 [Introducing Breez](./Introducing-Breez.md)
 
 # For Users
-
 - [Troubleshooting Payment Failures](./Troubleshooting-Payment-Failures.md)
 - [Backup FAQ](./Backup-FAQ.md)
 - [Opening Channels](./Opening-Channels.md)
@@ -24,8 +23,6 @@
 ------------------------
 
 # For Podcasters
-
-- [Podcasts on Breez](https://medium.com/breez-technology/podcasts-on-breez-streaming-sats-for-streaming-ideas-d9361ae8a627)
 - [How do I add my podcast to Breez?](How-do-I-add-my-podcast-to-Breez.md)
 - ['Listen-on-Breez' Badge]('Listen-on-Breez'-Badge.md)
 
