@@ -1,3 +1,5 @@
+# Bitcoin node synchronization
+
 By default, Breez uses this node to connect to the Bitcoin network:
 
 <code>bb1.breez.technology</code>
