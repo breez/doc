@@ -1,6 +1,8 @@
 # Summary
 [Introducing Breez](./Introducing-Breez.md)
 
+------------------------
+
 # For Users
 - [Troubleshooting Payment Failures](./Troubleshooting-Payment-Failures.md)
 - [Backup FAQ](./Backup-FAQ.md)
