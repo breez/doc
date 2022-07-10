@@ -1,3 +1,5 @@
+# . Adding a WebLN widget with LNURL-Auth
+
 Breez integrates different WebLN widgets to its Apps screen. When there's a widget that also needs to authenticate the user using LNURL-Auth, the following process needs to be executed:
 
 ### Getting the LNURL-Auth URL
