@@ -1,5 +1,7 @@
+# What are the Breez Fees?
+
 ### Sending Lightning Payments
-Routing fees are dynamic based on the available path. The Breez node has 1 sat base fee in many cases, but some channels have higher fees depending on the liquidity state of the network.
+Routing fees are dynamic based on the available path. The Breez node has 1 sat base fee in many cases, but some channels have higher fees depending on the liquidity state of the network. You can limit the Lightning in the PR
 ### Receiving LN payments 
 No fees, unless a new channel is required.
 ### Channel creation (setup fee)
