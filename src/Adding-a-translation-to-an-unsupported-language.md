@@ -1,3 +1,5 @@
+# Adding a translation to an unsupported language
+
 To translate the Breez interface to a new language:
 * All the app strings are located [here](https://github.com/breez/breezmobile/tree/master/lib/l10n).
 * To add a new language, simply copy the _app_en.arb_ file and and change its suffix to the new [language's code](https://api.flutter.dev/flutter/dart-ui/Locale/languageCode.html). For example: 
