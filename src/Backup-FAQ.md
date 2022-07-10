@@ -23,7 +23,7 @@ Yes, by storing your backup in Google Drive or Remove Server which are supported
 Create an [app password](https://help.nextcloud.com/t/app-name-and-app-password/71890), enter the new app credentials and retry.
 ### Do you support pCloud?
 Yes, but a business account is required (with WebDav support). URL should be entered in the below format:
-* pCloud (US)- https://webdav.pcloud.com
-* pCloud (EU) – https://ewebdav.pcloud.com
+* pCloud (US): <code>https://webdav.pcloud.com</code>
+* pCloud (EU): <code>https://ewebdav.pcloud.com</code>
 ### Breez says my key is wrong. What can I do?
 If Breez says your keys is wrong, then it's wrong. Unfortunately, there's not much that can be done in this case. Please validate that you've entered the words in the right order and that all the words are spelled correctly. It happened (more than once) that users tried to entered a word that [was similar the right one](https://github.com/breez/breezmobile/issues/615#issuecomment-955764720). 
