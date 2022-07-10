@@ -12,7 +12,7 @@ However, there are several ways to create channels with other nodes in Breez:
 
 **Note**: creating additional channels is recommended only for advanced users.
 
-## LNURL-Channel
+### LNURL-Channel
 [LNURL-Channel](https://github.com/btcontract/lnurl-rfc/blob/master/lnurl-channel.md) allows users to use external services like Bitrefill Thor, LNBIG, and other [LSPs](https://medium.com/breez-technology/introducing-lightning-service-providers-fe9fb1665d5f) to open additional channels simply by scanning a QR code or clicking on a link. In order to use it, you need to first choose a provider that offers channel opening services.
 
 Important note:
