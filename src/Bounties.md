@@ -29,10 +29,8 @@ Please read the [[Overview for Developers]] before getting started. The Tor impl
 
 **Bounty patrons**: Breez (1.2M sats), [Alex Waltz](https://twitter.com/raw_avocado) (172,480 sats), [alex giurgiu](https://twitter.com/nustiudinastea) (40K sats), anonymous donors (15K sats), Daniel F (10K sats), B0B0 (1000 sats).
 
-Please read: [[LNURL-Pay dev tips]] before starting your implementation.
-
 ## Donations
 To donate to our bounties, please use our [tippin'](https://tippin.me/@Breez_Tech) page. Add the bounty name and your Twitter handle (if you want to be credited).
 
 ## Developer resources
-* [[Overview for Developers]]
+* [Overview for Developers](Overview-for-Developers.md)
