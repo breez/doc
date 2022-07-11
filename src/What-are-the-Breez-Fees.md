@@ -1,11 +1,11 @@
 # What are the Breez Fees?
 
 ### Sending Lightning Payments
-Routing fees are dynamic based on the available path. The Breez node has 1 sat base fee in many cases, but some channels have higher fees depending on the liquidity state of the network. You can limit the Lightning in the PR
+Routing fees are dynamic based on the available path. The Breez node has 1 sat base fee in many cases, but some channels have higher fees depending on the liquidity state of the network. You can limit the Lightning fees in the _Preferences> Lightning Fees_ screen (however it may cause payments to fail).
 ### Receiving LN payments 
 No fees, unless a new channel is required.
 ### Channel creation (setup fee)
-0.4% of the amount received, 2000 sats minimum. For more information, see [Channel creation on the fly](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). Currently, Breez adds 100k sats of inbound liquidity to the received amount. For example, if you receive 50k sats, and a new channel is required, Breez will create a 150k channel on-the-fly.
+0.4% of the amount received, 2000 sats minimum. A new channel is required if you don't have enough inbound liquidity to receive funds. For more information, see [Channel creation on the fly](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). Currently, Breez adds 100k sats of inbound liquidity to the received amount. For example, if you receive 50k sats, and a new channel is required, Breez will create a 150k channel on-the-fly.
 
 Please note that if this fee is required, it will be displayed in the product. For Lightning transactions, in the 'Receive via Invoice' screen and again under the invoice QR code and for on-chain transactions, under the address QR code in the 'Receive via BTC Address' screen.
 
