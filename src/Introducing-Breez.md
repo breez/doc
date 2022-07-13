@@ -14,20 +14,20 @@ Note: the app is still in beta and there is a chance your money will be lost. On
 
 ### No channel management: zero-conf channels are created on the fly
 
-Breez seamlessly opens channels as needed on-the-fly. How does it work?
+Breez seamlessly opens channels as needed on-the-fly. Here's how it works:
 
 1. When the recipient wants to receive a payment but lacks inbound capacity, their Breez app recognizes the lack and issues two invoices using the same [preimage](https://wiki.ion.radar.tech/tech/bitcoin/pre-image): one invoice is issued to the sender (requesting a payment) and a second is issued to the Breez [LSP](https://medium.com/breez-technology/introducing-lightning-service-providers-fe9fb1665d5f). The amount of the second invoice equals the amount requested from the payer minus a miniscule service fee to Breez for opening the channel the recipient requires. The invoice sent to the sender includes routing instructions, indicating a pseudo-channel between the recipient and the Breez node.
 2. When the sender pays the invoice they received from the recipient, the Breez node intercepts the payment and holds it.
 3. The Breez LSP then opens a channel with the recipient and skips funding confirmation. Then it pays the recipient the second invoice and receives the preimage.
 4. Once the preimage is received from the recipient, Breez settles the payment with the sender.
 
-Channel creation [carries a fee](What-are-the-Breez-Fees.md).
+Breez funds the convenience of zero-conf channel creation by [charging a fee](What-are-the-Breez-Fees.md).
 
 The channels Breez creates on the fly are actually zero-conf channels. These differ from standard channels in that they can function before they’ve been confirmed on the blockchain. Instead of making users wait until blocks are mined, these channels become active instantly, allowing users to spend their funds immediately after receiving them.
 
 ### Cloud backup
 
-Breez is a Lightning wallet and thus requires frequent cloud backups. To avoid relying on the availability/existence of the Breez server, we offer automatic backups to Google Drive, iCloud, Nextcloud, or any WebDav server. From a security standpoint, there are also many advantages to saving these backups in a major third-party cloud-storage provider. For more information, see our [Backup FAQ](Backup-FAQ.md).
+Like all true Lightning wallets, Breez is a ["hot" wallet](https://dergigi.com/2022/06/27/the-words-we-use-in-bitcoin/) and thus requires frequent cloud backups. To avoid relying on the availability/existence of the Breez server, we offer automatic backups to Google Drive, iCloud, Nextcloud, or any WebDav server. From a security standpoint, there are also many advantages to saving these backups in a major third-party cloud-storage provider. For more information, see our [Backup FAQ](Backup-FAQ.md).
 
 ### On-chain transactions
 
@@ -52,7 +52,7 @@ By default, Breez creates channels on the fly with the Breez LSP whenever users 
 
 ### Point-of-Sale
 
-Breez works like a digital cash register for brick-and-mortar businesses and merchants who want to accept Lightning payments. It includes features and a user interface tailored to merchants’ needs, like manager passwords, a list of items, fiat display, and the ability to export transaction information. [Read here how to get started with Breez POS](How-to-Get-Started-with-Breez-POS.md).
+Breez works like a digital cash register for brick-and-mortar businesses and merchants who want to accept Lightning payments. It includes features and a user interface tailored to merchants’ needs, like manager passwords, a catalog of items, fiat display, and the ability to export transaction information. [Read this to get started with Breez POS](How-to-Get-Started-with-Breez-POS.md).
 
 ### Podcast player
 
@@ -62,4 +62,4 @@ For more information about Breez support of Podcating 2.0, [read this article](h
 
 Breez includes many more features, like full LNURL support, private mode, payment filters, Connect to Pay, biometric login, fast graph sync, scanning QR code from an image, fiat currencies and Lightning addresses. To learn more, please take a look at [our medium publication](https://medium.com/breez-technology), [GitHub projects](https://github.com/breez), or follow us on [Twitter](https://twitter.com/breez_tech).
 
-To learn more about Breez, please check out our [site](https://breez.technology) and our [medium publication](https://medium.com/breez-technology).
+To learn more about Breez, please check out our [site](https://breez.technology) and our [Medium publication](https://medium.com/breez-technology).
