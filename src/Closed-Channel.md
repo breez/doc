@@ -1,17 +1,18 @@
 # Closed Channel
 
-In Lightning Network, your channel can get closed, even you didn't actively closed it (e.g. force-closed by your peer). This can happen due to bad behaviour of nodes in the network (holding funds w/o settling them), or the Breez LSP may close your channel after a period of inactivity (at least 45 days without executing Lightning transactions). Furthermore, there are still issues (bugs) in lnd (the Lightning Network implementation Breez uses) that may cause your channel to get closed.
+Payment channels on Lightning can be closed without the user actively closing them. This can happen, for instance, when a peer force-closes a channel. Unilateral force closures can result from, say, nodes on the network that hold funds rather than forwarding them, and the Breez LSP may close your channel after a period of inactivity (at least 45 days without executing a Lightning transaction). Furthermore, there are still bugs in [lnd](https://github.com/LightningNetwork/lnd) (the Lightning Network implementation Breez uses) that can cause inadvertent channel closures.
 
-However, even in this case, you are still in full control of your funds (if they amount is above dust value). When a channel get closed, your funds are sent to the block hain. Typically it takes 144 blocks to send your funds from the closed channel to your a local wallet (aka sweep transaction). After the second tx is confirmed (from the closed channel tx to your local wallet), Breez displays an interface that allows you to redeem them. You should see a warning icon on top right corner of its home screen. If no warning icon is displayed, it probably means the closing process wasn't yet completed.
-To get more information regarding the closing process:
-1. Click on the **Closed Channel** transaction in the payments list should display a detailed status. Please wait for 144 confirmations (~24h) for the initial closed channel transaction. After the initial tx, another tx should be displayed. This is a sweep tx (from the closed channel to a local wallet in Breez).
-2. View the output of the _Channels > pendingchannels_ command from the _Advanced> Developers_ screen. 
+However, users never lose control of their funds (provided they are above dust value) even in the case of force closures. When a channel is closed, the funds are swept to an on-chain address. Typically, it takes 144 blocks (about 24 hours) before the funds from the closed channel appear in a user's local wallet. Once the funds appear in the user's local wallet, Breez displays an interface that allows the user to redeem them, and a warning icon will appear in the top right of the home screen. If no warning icon is displayed, it probably means that the process is still underway.
 
-### Status is 'Pending Closed Channel' for a few days
+For more information regarding the closing process:
+1. The **Closed Channel** transaction in the payments list should display a detailed status. Please wait 144 confirmations (about 24 hours) after the initial closed channel transaction, at which point the second, sweep transaction (i.e. the transfer from the closed channel to the local Breez wallet) should be displayed. 
+2. Consult the output of the _pendingchannels_ command by clicking **Preferences > Developers > Channels > pendingchannels**. 
 
-Sometimes, due to issues regrading on-chain synchronization, the sweep transaction isn't executed and the channel closing process is "stuck" at pending. In order to resolve it, please try the following:
-1. Click the 'Refresh Information' button in the Pending Closed Channel dialog.
+### 'Pending Closed Channel' seems stuck for a few days
+
+Sometimes on-chain synchronization issues cause the sweep transaction to fail, and the process of closing a channel gets "stuck" at pending. To resolve this issue, please try the following:
+1. Click the **Refresh Information** button in the Pending Closed Channel dialog.
 2. Click 'Exit Breez'.
-3. Reopen Breez and keep in the foreground for at least 15min. Make sure the device isn't going to sleep mode.
+3. Reopen Breez and keep the app running in the foreground for at least 15 minutes and prevent the device from going into sleep mode.
 
-This process should re-sync your channel and broadcast the sweep transaction that will enable you to redeem your funds. If that doesn't help, please contact our support: contact@breez.technology.
+This process should re-synchronize your channel and broadcast the sweep transaction, which will enable you to redeem your funds. If that doesn't help, please contact our support: [contact@breez.technology](contact@breez.technology).
