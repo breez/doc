@@ -16,7 +16,7 @@ You can restore from backup inside the Breez app. You'll see a **Restore from Ba
 **DO NOT RUN A PREVIOUS INSTANCE OF BREEZ AFTER RESTORING ON A NEW DEVICE.**
 ### Can I view the backup files in Google Drive/iCloud?
 Backup files are stored in a private data directory accessible only through the Breez app.
-Google Drive users can manage their Breez storage by opening Google Drive in a browser and clicking on: **Settings > Manage Apps**.
+Google Drive users can manage their Breez storage by opening Google Drive in a browser and clicking on **Settings > Manage Apps**.
 ### Can I switch from Android to iOS and vice versa?
 Yes, by storing your backup in Google Drive or on a remove server that is supported on both platforms. To switch cloud provider, use the **Store Backup Data in** setting on the **Preferences > Security & Backup** screen.
 ### I can't authenticate to Nextcloud. What can I do?
