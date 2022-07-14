@@ -8,11 +8,11 @@ For more information regarding the closing process:
 1. The **Closed Channel** transaction in the payments list should display a detailed status. Please wait 144 confirmations (about 24 hours) after the initial closed channel transaction, at which point the second, sweep transaction (i.e. the transfer from the closed channel to the local Breez wallet) should be displayed. 
 2. Consult the output of the _pendingchannels_ command by clicking **Preferences > Developers > Channels > pendingchannels**. 
 
-### 'Pending Closed Channel' seems stuck for a few days
+### 'Pending Closed Channel' status seems stuck for a few days
 
 Sometimes on-chain synchronization issues cause the sweep transaction to fail, and the process of closing a channel gets "stuck" at pending. To resolve this issue, please try the following:
 1. Click the **Refresh Information** button in the Pending Closed Channel dialog.
 2. Click 'Exit Breez'.
 3. Reopen Breez and keep the app running in the foreground for at least 15 minutes and prevent the device from going into sleep mode.
 
-This process should re-synchronize your channel and broadcast the sweep transaction, which will enable you to redeem your funds. If that doesn't help, please contact our support: [contact@breez.technology](contact@breez.technology).
+This process should re-synchronize your channel and broadcast the sweep transaction, which will enable you to redeem your funds. If that doesn't help, please contact our support: [contact@breez.technology](mailto:contact@breez.technology).
