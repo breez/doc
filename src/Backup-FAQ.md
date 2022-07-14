@@ -4,13 +4,13 @@
 Restore your wallet only if you've lost your device or accidentally uninstalled Breez. Restoring from backup is unlikely to fix problems you may be experiencing with the app.
 
 ### Does Breez have a backup seed?
-Unlike an on-chain wallet, Breez requires continuous backups of the user's current channel states, which necessitates cloud storage (e.g. Google Drive, iCloud, Nextcloud or any WebDav server) rather than a simple seed phrase to backup/restore. In Breez, an encrypted backup is triggered automatically after whenever a BTC address is generated or a Lightning payment event occurs.
+Unlike an on-chain wallet, Breez requires continuous backups of the user's current channel states, which necessitates cloud storage (e.g. Google Drive, iCloud, Nextcloud, or any WebDav server) rather than a simple seed phrase to backup/restore. In Breez, an encrypted backup is triggered automatically after whenever a BTC address is generated or a Lightning payment event occurs.
 ### Why does Breez require cloud access?
 As a Lightning wallet, Breez requires continuous backups of the user's channel states backup to the cloud. From a security standpoint, there are many advantages to saving these backups in a major third-party cloud-storage provider. Even better, with cloud backup users' backup files don't rely on the availability of the Breez server.
 ### Can Google/Apple access my backup information?
-Neither company is fully transparent about their data encryption. That's why Breez offers an additional layer of encryption to data backed up in the cloud. To generate a backup phrase, activate _Encrypt Backup Data_ in the _Preferences > Security & Backup_ screen.
+Neither company is fully transparent about their data encryption. That's why Breez offers an additional layer of encryption to data backed up in the cloud. To generate a backup phrase, activate **Encrypt Backup Data** in the **Preferences > Security & Backup** screen.
 ### Why can't I restore my data in other wallets despite entering the correct encryption key?
-Breez's encryption key is not a wallet seed. Rather, the key encrypts the user's data stored in the cloud. In order to restore the information, users need access their cloud backups and decrypt them with their individual keys. Currently, Breez backups can only be restored from within the Breez app.
+Breez's encryption key is not the same as a seed phrase for an on-chain wallet. The Breez key encrypts the user's data stored in the cloud. In order to restore the information, users need access their cloud backups and decrypt them with their individual keys. Currently, Breez backups can only be restored from within the Breez app.
 ### How do I restore from backup?
 You can restore from backup inside the Breez app. You'll see a **Restore from Backup** link under the **Let's Breez** button on the opening screen.
 **DO NOT RUN A PREVIOUS INSTANCE OF BREEZ AFTER RESTORING ON A NEW DEVICE.**
