@@ -3,7 +3,7 @@
 By default, whenever a user lacks sufficient inbound liquidity to receive a payment, Breez creates a channel on the fly connected to the Breez routing node. 
 
 However, there are several ways in Breez to create channels with other nodes:
-* Opening a channel from your own node:
+* Opening a channel from a different node:
    * Use the **getinfo_ command** by clicking **Preferences > Developers > General** to retrieve the public key of the mobile node on your device.
    * Click on **Preferences > Developers > Peers > connect** to connect to another node. Note: this won't work for Tor nodes, only regular IP.
    * Open a private channel to the Breez mobile node from the interface of the new node using lncli or similar. Make sure Breez is running in the foreground on your phone while opening the channel.
