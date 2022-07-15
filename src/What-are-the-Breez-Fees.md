@@ -17,7 +17,7 @@ There are no additional fees to continue using the channels created.
 ### Receiving from a BTC Address
 Receiving from BTC address involves a trustless [submarine swap](Adding-Funds-via-Submarine-Swaps.md). Check the limits below the QR code before sending funds.
 
-Receiving from a BTC address incurs no additional fees unless a new channel is required.
+No additional fees are incurred unless a new channel is required.
 ### Send to a BTC Address
 Sending to a BTC address involves a trustless [reverse swap](https://medium.com/breez-technology/reverse-submarine-swaps-another-step-towards-a-p2p-lightning-economy-bacb040fdca7). Reverse swaps require a minimum transaction amount of 50k sats.
 
