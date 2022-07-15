@@ -1,4 +1,4 @@
-# What's the deal with the 600 sat-reserve?
+# What's the deal with the 600-sat reserve?
 
 Prior to version 0.11, Breez required a minimum balance of 600 sats because of [channel reserve](https://link.medium.com/W2dwNuc583). Channel reserve is a mechanism in Lightning that prevents attacks of spamming channel openings and closures.
 
