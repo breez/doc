@@ -1,4 +1,4 @@
-# Closed Channel
+# Channel Closures
 
 Payment channels on Lightning can be closed without the user actively closing them. This can happen, for instance, when a peer force-closes a channel. Unilateral force closures can result from, say, nodes on the network that hold funds rather than forwarding them, and the Breez LSP may close your channel after a period of inactivity (at least 45 days without executing a Lightning transaction). Furthermore, there are still bugs in [lnd](https://github.com/LightningNetwork/lnd) (the Lightning Network implementation Breez uses) that can cause inadvertent channel closures.
 
