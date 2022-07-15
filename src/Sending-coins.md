@@ -5,4 +5,6 @@ In some cases, like channel closures, users' funds might be deposited automatica
 However, the funds may not suffice to initiate a transaction and cover the fees incurred. 
 To send the funds with a minimal fee, enter the following command in the **Preferences > Developers** screen:
 
+<code>
 sendcoins --sweepall=1 --addr=dest-btc-address --sat_per_byte=10
+</code>
