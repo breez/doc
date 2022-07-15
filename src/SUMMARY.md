@@ -7,15 +7,15 @@
 - [Troubleshooting Payment Failures](./Troubleshooting-Payment-Failures.md)
 - [Backup FAQ](./Backup-FAQ.md)
 - [Opening Channels](./Opening-Channels.md)
-- [Closed Channel](./Closed-Channel.md)
+- [Channel Closures](./Closed-Channel.md)
 - [Can I download Breez APK?](./Can-I-download-Breez-APK.md)
 - [Adding Funds via Submarine Swaps](./Adding-Funds-via-Submarine-Swaps.md)
-- [How to close Breez's channels?](./How-to-close-Breez's-channels.md)
-- [What are the Breez Fees?](./What-are-the-Breez-Fees.md)
-- [Sending coins](./Sending-coins.md)
-- [Bitcoin node synchronization](./Bitcoin-node-synchronization.md)
-- [Connecting a Bitcoin node](./Connecting-a-Bitcoin-node-supporting-BIP-157.md)
-- [What's the deal with the 600 sats?](./What's-the-deal-with-the-600-sats.md)
+- [How to close channels in Breez](./How-to-close-Breez's-channels.md)
+- [What are fees are there in Breez?](./What-are-the-Breez-Fees.md)
+- [Sending Funds](./Sending-coins.md)
+- [Bitcoin Node Synchronization](./Bitcoin-node-synchronization.md)
+- [Connecting to a Bitcoin Node](./Connecting-a-Bitcoin-node-supporting-BIP-157.md)
+- [What's the deal with the 600-sat reserve?](./What's-the-deal-with-the-600-sats.md)
 
 ------------------------
 
