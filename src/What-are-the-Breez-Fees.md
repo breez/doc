@@ -1,11 +1,13 @@
 # What fees do Lightning payments in Breez entail?
 
 ### Sending Lightning Payments
-Routing fees depend on the available path. The Breez node charges a base fee of 1 sat in many cases, but fees for some channels are higher fees depending on liquidity is distributed throughout the network. Users can limit fees either as a flat maximum or as a percentage of the transaction amount by clicking **Preferences > Lightning Fees** and entering the values desired. Please note, however, that limiting fees may cause payments to fail.
+Routing fees depend on the available path. The Breez node charges a base fee of 1 sat in many cases, but fees for some channels are higher depending on the distribution of liquidity throughout the network. Users can limit fees either as a flat maximum or as a percentage of the transaction amount by clicking **Preferences > Lightning Fees** and entering the values desired. 
+
+Please note, however, that limiting fees may cause payments to fail.
 ### Receiving LN payments 
-Receiving a Lightning payment incurs no fees unless a new channel is required.
-### Channel creation (setup fee)
-When a new channel _is_ required to accommodate an incoming payment, Breez charges 0.4% of the amount received, with a minumum of 2000 sats. For more information, see the _Channel creation on the fly_ section of [this blog post](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). 
+Receiving a Lightning payment in Breez incurs no fees unless a new channel is required.
+### Channel creation 
+When a new channel is required to accommodate an incoming payment, Breez charges 0.4% of the amount received, with a minumum of 2000 sats. For more information, see the _Channel creation on the fly_ section of [this blog post](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). 
 
 Currently, Breez adds 100k sats of inbound liquidity to the amount received in an incoming payment. For example, if you receive 50k sats, and a new channel is required, Breez will create a new channel on the fly with a capacity of 150k sats.
 
