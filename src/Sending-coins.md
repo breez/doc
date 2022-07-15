@@ -1,4 +1,6 @@
-# Sending Funds
+# Using the _sendcoins_ command
+
+_Please note that the functionality described here is best left to advanced users._
 
 In some cases, like channel closures, users' funds might be deposited automatically into Breez's built-in (on-chain) Bitcoin wallet. If this occurs, we strongly recommend sending the funds to a secure BTC address as soon as possible. Breez offers an _Unexpected Funds_ screen to facilitate this process.
 
