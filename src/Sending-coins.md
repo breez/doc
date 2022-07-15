@@ -1,8 +1,8 @@
-# Sending Coins
+# Sending Funds
 
-In some cases, like a closed channel, you might receive funds to Breez's underlying Bitcoin wallet. If such cases, it is highly recommend to send the funds out to a BTC address ASAP.
-Breez offers a UI, an _Unexpected Funds_ screen, to facilitate sending your coins out.
-However, sometimes the funds are not enough to create a transaction with the recommended fees. 
-To send out the coins with a minimal fee enter the following command in the _Preferences_ > _Developers_ screen:
+In some cases, like channel closures, users' funds might be deposited automatically into Breez's built-in (on-chain) Bitcoin wallet. If this occurs, we strongly highly recommend sending the funds to a secure BTC address as soon as possible. Breez offers an _Unexpected Funds_ screen to facilitate this process.
+
+However, the funds may not suffice to initiate a transaction and cover the fees incurred. 
+To send the funds with a minimal fee, enter the following command in the **Preferences > Developers** screen:
 
 sendcoins --sweepall=1 --addr=dest-btc-address --sat_per_byte=10
