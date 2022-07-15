@@ -1,6 +1,6 @@
 # Connecting to a Bitcoin Node
 
-Breez can be connected to any Bitcoin node supporting [BIP 157](https://github.com/bitcoin/bips/blob/master/bip-0157.mediawiki). Bitcoin Core supports BIP 157 starting from v0.21. You can also use btcd. Tor isn't yet supported.
+Breez can be connected to any Bitcoin node that supports [BIP 157](https://github.com/bitcoin/bips/blob/master/bip-0157.mediawiki). Bitcoin Core has supported BIP 157 since v0.21. The btcd implementation is also supported, but Tor is not yet supported.
 
 The following configuration flags needs to be added to bitcoin.conf:
 ```
