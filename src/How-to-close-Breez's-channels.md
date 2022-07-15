@@ -1,6 +1,6 @@
-# How to close Breez's channels?
+# How to close channels in Breez?
 
-In order to close your channel, go to the _Preferences > Developers_ screen and run the **Channels > closeallchannels** command.
-Funds in these channels will be available in the Breez app after closing transactions are confirmed on-chain.
+In order to close payment channels in Breez, click through **Preferences > Developers > Channels > closeallchannels**.
+Funds that were contained in those channels will be available in the Breez app once the closing transactions are confirmed on-chain.
  
-**Warning**: you will be able to redeem your funds only if there are enough funds to be confirmed on-chain.  
+**Warning**: funds will only be available for redemption if the balance exceeds the on-chain transaction cost.  
