@@ -2,7 +2,7 @@
 
 [Submarine swaps](https://www.google.com/amp/s/blog.muun.com/a-closer-look-at-submarine-swaps-in-the-lightning-network/amp/) allow users to transfer on-chain funds to Lightning without trust or counterparty risk, which is exactly how Breez uses them. 
 
-Submarine swaps are programmed such that the funds in the address provided can only be spent if a Lightning transaction is executed to the user's node within 288 blocks (about 48 hours). If no Lightning transaction is executed by this deadline, the user can redeem the funds when the time lock expires.
+Submarine swaps are designed such that the funds in the address provided can only be spent if a Lightning transaction is executed to the user's node within 288 blocks (about 48 hours). If no Lightning transaction is executed by this deadline, the user can redeem the funds when the time lock expires.
 
 **Note for advanced users**: The script for a submarine swap can be exported from Breez by long-clicking the QR code of the address.
 
@@ -15,4 +15,4 @@ Submarine swaps allow Breez to support on-chain transactions while maintaining a
 * Sending multiple transactions in quick succession to the same address will trigger a refund. Each transaction must be completed and transferred to the user's balance before the next can be initiated.
 
 ### How can users claim their refunds?
-Once the funds are ready to be redeemed (about 48 hours after the on-chain transaction has been confirmed), a 'Get Refund' option will appear in the Breez side-menu. Click on it and enter an on-chain BTC address when prompted. The funds will be sent to the address entered. 
+Once the funds are ready to be redeemed (about 48 hours after the on-chain transaction has been confirmed), a **Get Refund** option will appear in the Breez side-menu. Click on it and enter an on-chain BTC address when prompted. The funds will be sent to the address entered. 
