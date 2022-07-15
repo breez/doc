@@ -1,22 +1,24 @@
-# What are the Breez Fees?
+# What fees do Lightning payments in Breez entail?
 
 ### Sending Lightning Payments
-Routing fees are dynamic based on the available path. The Breez node has 1 sat base fee in many cases, but some channels have higher fees depending on the liquidity state of the network. You can limit the Lightning fees in the _Preferences> Lightning Fees_ screen (however it may cause payments to fail).
+Routing fees depend on the available path. The Breez node charges a base fee of 1 sat in many cases, but fees for some channels are higher fees depending on liquidity is distributed throughout the network. Users can limit fees either as a flat maximum or as a percentage of the transaction amount by clicking **Preferences > Lightning Fees** and entering the values desired. Please note, however, that limiting fees may cause payments to fail.
 ### Receiving LN payments 
-No fees, unless a new channel is required.
+Receiving a Lightning payment incurs no fees unless a new channel is required.
 ### Channel creation (setup fee)
-0.4% of the amount received, 2000 sats minimum. A new channel is required if you don't have enough inbound liquidity to receive funds. For more information, see [Channel creation on the fly](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). Currently, Breez adds 100k sats of inbound liquidity to the received amount. For example, if you receive 50k sats, and a new channel is required, Breez will create a 150k channel on-the-fly.
+When a new channel _is_ required to accommodate an incoming payment, Breez charges 0.4% of the amount received, with a minumum of 2000 sats. For more information, see the _Channel creation on the fly_ section of [this blog post](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). 
 
-Please note that if this fee is required, it will be displayed in the product. For Lightning transactions, in the 'Receive via Invoice' screen and again under the invoice QR code and for on-chain transactions, under the address QR code in the 'Receive via BTC Address' screen.
+Currently, Breez adds 100k sats of inbound liquidity to the amount received in an incoming payment. For example, if you receive 50k sats, and a new channel is required, Breez will create a new channel on the fly with a capacity of 150k sats.
 
-There are no additional fees if you keep using the created channels.
-### Receive via BTC Address
-Send to BTC address is a trustless [submarine swap](Adding-Funds-via-Submarine-Swaps.md). Check the limits below the QR code before sending funds.
+Please note that the app displays a notification when a new channel is required and a setup fee will be incurred. For Lightning transactions, the notification will appear in the _Receive via Invoice_ screen and again under the invoice QR code. For on-chain transactions, it will apppear under the address QR code in the _Receive via BTC Address_ screen.
 
-No fees, unless a new channel is required.
-### Send via BTC Address
-Send to BTC address is a trustless [reverse swap](https://medium.com/breez-technology/reverse-submarine-swaps-another-step-towards-a-p2p-lightning-economy-bacb040fdca7). You can send on-chain above 50k sats.
+There are no additional fees to continue using the channels created.
+### Receiving from a BTC Address
+Receiving from BTC address involves a trustless [submarine swap](Adding-Funds-via-Submarine-Swaps.md). Check the limits below the QR code before sending funds.
 
-0.5% [Boltz](https://boltz.exchange/) service fee (this is a [trustless swap](https://medium.com/breez-technology/reverse-submarine-swaps-another-step-towards-a-p2p-lightning-economy-bacb040fdca7)) and a dynamic fee based on the current bitcoin mempool usage.
-### Streaming sats to Podcasts
-No more than 5%.
+Receiving from a BTC address incurs no additional fees unless a new channel is required.
+### Send to a BTC Address
+Sending to a BTC address involves a trustless [reverse swap](https://medium.com/breez-technology/reverse-submarine-swaps-another-step-towards-a-p2p-lightning-economy-bacb040fdca7). Reverse swaps require a minimum transaction amount of 50k sats.
+
+Further, [Boltz](https://boltz.exchange/), the reverse swap provider, charges a fixed service fee of 0.5% and a variable fee based on the current bitcoin mempool usage.
+### Streaming sats to podcasts
+Breez charges no more than 5% of the sats listeners stream to creators.
