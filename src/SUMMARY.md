@@ -12,7 +12,7 @@
 - [Adding Funds via Submarine Swaps](./Adding-Funds-via-Submarine-Swaps.md)
 - [How to close channels in Breez](./How-to-close-Breez's-channels.md)
 - [What are fees are there in Breez?](./What-are-the-Breez-Fees.md)
-- [Using the _sendcoins_ Command](./Sending-coins.md)
+- [Using the _sendcoins_ command](./Sending-coins.md)
 - [Bitcoin Node Synchronization](./Bitcoin-node-synchronization.md)
 - [Connecting to a Bitcoin Node](./Connecting-a-Bitcoin-node-supporting-BIP-157.md)
 - [What's the deal with the 600-sat reserve?](./What's-the-deal-with-the-600-sats.md)
