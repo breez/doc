@@ -42,6 +42,6 @@ Run the following commands in order to open a channel and receive a payment:
 Note this script uses jq, which must installed in your environment.
 
 8. Send a Lightning payment: 
->`docker exec dev-alice "/go/bin/lncli" -network=simnet payinvoice --pay_req <payment_request>`
+> `docker exec dev-alice "/go/bin/lncli" -network=simnet payinvoice --pay_req <payment_request>`
 
 If the test is successful, the LSP node should open a channel to your mobile app and send the payment. You should see the payment in the transactions list in your mobile app.
