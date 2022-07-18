@@ -1,6 +1,6 @@
 # How do I add my podcast to Breez?
 
-Breez uses the [Podcast Index](https://podcastindex.org/) APIs, and displays podcasts that added a Lightning value block to their feeds.
+Breez uses the [Podcast Index](https://podcastindex.org/) APIs and displays podcasts that added a Lightning value block to their feeds.
 To add your podcast to library of podcasts available in Breez, search for your podcast in the [Podcast Index](https://podcastindex.org/), click on the Lightning icon, and follow the [instructions](https://bowtiedchukar.com/setup-your-podcast-to-stream-sats/).
 
 If you are having trouble registering, try to post in [this telegram group](https://t.me/podcasting20).
