@@ -1,6 +1,6 @@
 # 'Listen-on-Breez' Badge
 
-To encourage your listeners to listen to your podcast on Breez, we've created this [Listen on Breez](https://drive.google.com/file/d/1e50lBqrUt4GNC4TfnhCdckJ4FFFYrTU6/view?usp=drivesdk) badge.
+To encourage your listeners to listen to your podcast on Breez, we've created this [**Listen on Breez**](https://drive.google.com/file/d/1e50lBqrUt4GNC4TfnhCdckJ4FFFYrTU6/view?usp=drivesdk) badge.
 
 Here's an example that links to the No Agenda podcast (_note this link will work only from a mobile device_):
 
@@ -13,7 +13,7 @@ Here's an example that links to the No Agenda podcast (_note this link will work
 </a>
 
 ### Direct Link
-To generate a direct link to your podcast, simply open your podcast in the Breez app and use the Share button to get the link.
+To generate a direct link to your podcast, simply open your podcast in the Breez app and use the **Share** button to get the link.
 
 ### Resources
-* [Listen on Breez](https://drive.google.com/file/d/1e50lBqrUt4GNC4TfnhCdckJ4FFFYrTU6/view?usp=drivesdk) files
+* [Download the **Listen on Breez**](https://drive.google.com/file/d/1e50lBqrUt4GNC4TfnhCdckJ4FFFYrTU6/view?usp=drivesdk) files
