@@ -1,6 +1,6 @@
 # Adding Funds via Submarine Swaps
 
-[Submarine swaps](https://www.google.com/amp/s/blog.muun.com/a-closer-look-at-submarine-swaps-in-the-lightning-network/amp/) allow users to transfer on-chain funds to Lightning without trust or counterparty risk, which is exactly how Breez uses them. 
+[Submarine swaps](https://docs.lightning.engineering/the-lightning-network/multihop-payments/understanding-submarine-swaps) allow users to transfer on-chain funds to Lightning without trust or counterparty risk, which is exactly how Breez uses them. 
 
 Submarine swaps are designed such that the funds in the address provided can only be spent if a Lightning transaction is executed to the user's node within 288 blocks (about 48 hours). If no Lightning transaction is executed by this deadline, the user can redeem the funds when the time lock expires.
 
