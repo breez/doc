@@ -9,7 +9,7 @@ If you are trying to pay an invoice, but you see an error like **no route found*
 
 * Retry paying the invoice. lnd has a function called **mission control** in its routing algorithm. Mission control improves routing based on previous attempts, so simply retrying a payment might do the trick. 
  
-* Make sure there is no limit set in **Preferences> Lightning Fees**.
+* Make sure there is no limit set in **Preferences > Lightning Fees**.
 
 * Reset the Bitcoin Node by clicking the **Reset** button on the **Preferences > Network** screen.
  
