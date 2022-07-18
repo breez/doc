@@ -12,7 +12,7 @@ Submarine swaps allow Breez to support on-chain transactions while maintaining a
 ### Limitations
 * Sending more funds than the specified limit (shown in Breez below the address) will trigger a refund since no submarine swap may exceed the recipient's channel capacity. 
 * Sending a small amount to a submarine swap address may trigger a refund because users could theoretically spend the funds even if Breez has already executed a Lightning transaction. The reason is that Breez cannot always ensure the on-chain transaction is confirmed before the time lock expires. 
-* Sending multiple transactions in quick succession to the same address will trigger a refund. Each transaction must be completed and transferred to the user's balance before the next can be initiated.
+* Each transaction must be completed with a new, single-use address. Sending multiple transactions to the same address will trigger a refund. 
 
 ### How can users claim their refunds?
 Once the funds are ready to be redeemed (about 48 hours after the on-chain transaction has been confirmed), a **Get Refund** option will appear in the Breez side-menu. Click on it and enter an on-chain BTC address when prompted. The funds will be sent to the address entered. 
