@@ -43,6 +43,11 @@ To view a daily/weekly/monthly report of your sales (for accounting purposes or 
 
 ## Exporting Transactions
 To view a list of the payments received in Breez, click on the icon in the top left, and then click on **Transactions**. Click on the three dots on the top right, then on **Export** to export a list of incoming payments in CSV format. To restrict the list to a certain period of time, click on the calendar icon to set a date range.
+
+## Printing Receipts
+To print a sale receipt, click on the print icon on the top right of the payment confirmation dialog. Alternatively, click on the icon in the top left, and then click on **Transactions**. Locate the sale to print, open it and click the top right print icon. 
+Note: use [this driver](https://play.google.com/store/apps/details?id=me.shadura.escposprint) to print on a portable 58mm/80mm Bluetooth/USB thermal printer. 
+
 ## I want to learn more
 * For more information on Lightning and Breez, check out our [blog](https://medium.com/breez-technology). 
 * For more technical tips on how to get the most out of the app and perform common operations, check out our [documentation](Introducing-Breez.md).
