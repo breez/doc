@@ -46,6 +46,7 @@ To view a list of the payments received in Breez, click on the icon in the top l
 
 ## Printing Receipts
 To print a sale receipt, click on the print icon on the top right of the payment confirmation dialog. Alternatively, click on the icon in the top left, and then click on **Transactions**. Locate the sale to print, open it and click the top right print icon. 
+
 Note: use [this driver](https://play.google.com/store/apps/details?id=me.shadura.escposprint) to print on a portable 58mm/80mm Bluetooth/USB thermal printer. 
 
 ## I want to learn more
