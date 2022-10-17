@@ -7,6 +7,8 @@ Routing is done on the client side using the graph information provided by lnd.
 If you are trying to pay an invoice, but you see an error like **no route found**, **unable to find path** or timeout errors, please try the following:
 * Make sure you are running the latest version of the app.
 
+* Try a smaller amount to leave enough sats for routing fees (e.g. 1-2%). 
+
 * Retry paying the invoice. lnd has a function called **mission control** in its routing algorithm. Mission control improves routing based on previous attempts, so simply retrying a payment might do the trick. 
  
 * Make sure there is no limit set in **Preferences > Lightning Fees**.
