@@ -4,13 +4,13 @@ Yes. It requires Android 7.0 or greater and a 64-bit device. [Click here to down
 ### Verifying the release
 In order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In order to verify the signatures, complete the following steps:
 
-Download ```1666517910-1.apk```, ```SHA256SUMS``` and ```SHA256SUMS.asc``` from the release assets:
+Download the APK, ```SHA256SUMS``` and ```SHA256SUMS.asc``` from the release assets:
 
 ```
 curl \
--LO https://github.com/breez/breezmobile/releases/download/0.15.lnd.hf1/1666517910-1.apk \
--LO https://github.com/breez/breezmobile/releases/download/0.15.lnd.hf1/SHA256SUMS \
--LO https://github.com/breez/breezmobile/releases/download/0.15.lnd.hf1/SHA256SUMS.asc
+-LO xyz.apk \
+-LO SHA256SUMS \
+-LO SHA256SUMS.asc
 ```
 
 Download Breez's GPG key:
@@ -41,5 +41,5 @@ sha256sum -c SHA256SUMS
 
 This should give the following output:
 ```
-1666517910-1.apk: OK
+xyz.apk: OK
 ```
