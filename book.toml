@@ -4,3 +4,8 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Breez Knowledge Base"
+
+[output.html]
+theme = "navy"
+default-theme = "navy"
+preferred-dark-theme = "navy"
