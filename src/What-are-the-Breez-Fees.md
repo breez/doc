@@ -7,7 +7,7 @@ Please note, however, that limiting fees may cause payments to fail.
 ### Receiving LN payments 
 Receiving a Lightning payment in Breez incurs no fees unless a new channel is required.
 ### Channel creation 
-When a new channel is required to accommodate an incoming payment, Breez charges 0.4% of the amount received, with a minumum of 2000 sats. For more information, see the _Channel creation on the fly_ section of [this blog post](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). 
+When a new channel is required to accommodate an incoming payment, Breez charges 0.4% of the amount received, with a minimum of 2000 sats. For more information, see the _Channel creation on the fly_ section of [this blog post](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). 
 
 Currently, Breez adds 100k sats of inbound liquidity to the amount received in an incoming payment. For example, if you receive 50k sats, and a new channel is required, Breez will create a new channel on the fly with a capacity of 150k sats.
 
