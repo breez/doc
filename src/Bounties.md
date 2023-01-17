@@ -11,7 +11,7 @@ Please read the [Overview for Developers](https://doc.breez.technology/Overview-
 * From a product standpoint, when tapping the card on the device, Breez should show a dialog displaying the card balance and offer a sweep action to a Breez address.
 * For anyone interested in the work and testing, the Coinkite team are happy to send test cards.
 
-**Payout**: 5M sats (donated by the Coinkite team) for a complete iOS and Android implementations.
+**Payout**: 10M sats (donated by the Coinkite team) for a complete iOS and Android implementations.
 
 ## Developer resources
 * [Overview for Developers](Overview-for-Developers.md)
