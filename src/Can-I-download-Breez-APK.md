@@ -1,5 +1,5 @@
 # Can I download the Breez APK?
-Yes. It requires Android 7.0 or greater and a 64-bit device. [Click here to download.](https://github.com/breez/breezmobile/releases/download/0.15.httpsync/1675268841-1.apk) 
+Yes. It requires Android 7.0 or greater and a 64-bit device. [Click here to download.](https://github.com/breez/breezmobile/releases/download/0.15.httpsync/1675611964-1.apk) 
 
 ### Verifying the release
 In order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In order to verify the signatures, complete the following steps:
