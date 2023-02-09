@@ -35,8 +35,9 @@
 -------------------------
 
 # For Developers
-- [Overview for Developers](Overview-for-Developers.md)
-- [Running Breez in simnet](Running-Breez-in-simnet.md)
+- [Breez SDK](Breez-SDK.md)
+- [Overview for Breez Mobile Developers](Overview-for-Developers.md)
+- [Running Breez Mobile in simnet](Running-Breez-in-simnet.md)
 - [Adding a WebLN widget with LNURL-Auth](Adding-a-WebLN-widget-with-LNURL-Auth.md)
 - [Bounties](Bounties.md)
-- [Translating Breez into an unsupported language](Adding-a-translation-to-an-unsupported-language.md)
+- [Translating Breez Mobile into an unsupported language](Adding-a-translation-to-an-unsupported-language.md)
