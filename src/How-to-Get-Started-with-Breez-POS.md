@@ -11,7 +11,7 @@ Now let’s look at how to set Breez up as a Lightning cash register for your bu
 ## How to get started with Breez?
 The first step is to download the app. It’s available for [Android](https://play.google.com/apps/testing/com.breez.client) and [iOS](https://testflight.apple.com/join/wPju2Du7) (install TestFlight and click the link from your device). 
 
-Breez [backs itself up](Backup-FAQ.md) automatically to Google Drive, iCloud or any WebDav server.
+Breez can [back itself up](Backup-FAQ.md) automatically to Google Drive, iCloud or any WebDav server.
 
 Note that each device runs its own Lightning node. You can run POS mode on as many devices as you’d like, but the balances will remain separate.
 
