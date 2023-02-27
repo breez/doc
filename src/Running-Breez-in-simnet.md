@@ -14,9 +14,11 @@ This [script](https://github.com/breez/breez/blob/master/docker/start-dev-env.sh
 1. Change the DEV_HOST_IP env variable to the host IP address (it should run in the same network as the mobile device).
 2. Change the TEST_DIR value to a directory where all the containers' persistent data will be stored.
 
+Note this script uses jq, which must installed in your environment.
+
 ### Connecting from mobile:
 To connect from mobile, these configuration files should be placed under the _conf_ directory:
-* [breez.con](https://github.com/breez/breezmobile/blob/master/conf/simnet/breez.conf): replace the <DEV_HOST_IP> with your cluster IP address.
+* [breez.conf](https://github.com/breez/breezmobile/blob/master/conf/simnet/breez.conf): replace the <DEV_HOST_IP> with your cluster IP address.
 * [lnd.conf](https://github.com/breez/breezmobile/blob/master/conf/simnet/lnd.conf): replace the <DEV_HOST_IP> with your cluster IP address.
 
 ### Receiving payments
@@ -29,19 +31,17 @@ Run the following commands in order to open a channel and receive a payment:
 2. Generate 6 blocks: 
 > `docker exec dev-btcd /start-btcctl.sh generate 6`
 3. Generate a btc address for Alice: 
-> `docker exec dev-alice "/go/bin/lncli" --network simnet newaddress np2wkh`
+> `docker exec dev-alice "/root/go/bin/lncli" --network simnet newaddress np2wkh`
 4. Send coins from the LSP node to Alice: 
 > `docker exec dev-breez "/lnd/lncli" -network=simnet sendcoins <alice_address> 20000000`
 5. Generate 6 blocks: 
 > `docker exec dev-btcd /start-btcctl.sh generate 6`
 6. Open a channel from Alice to the LSP node: 
-> `docker exec dev-alice "/go/bin/lncli" -network=simnet openchannel --node_key <lsp pubkey> --local_amt=200000 --connect=10.5.0.3:9735 --private`
+> `docker exec dev-alice "/root/go/bin/lncli" -network=simnet openchannel --node_key <lsp pubkey> --local_amt=200000 --connect=10.5.0.3:9735 --private`
 7. Generate blocks to confirm the channel: 
 > `docker exec dev-btcd /start-btcctl.sh generate 6`
 
-Note this script uses jq, which must installed in your environment.
-
 8. Send a Lightning payment: 
-> `docker exec dev-alice "/go/bin/lncli" -network=simnet payinvoice --pay_req <payment_request>`
+> `docker exec dev-alice "/root/go/bin/lncli" -network=simnet payinvoice -f --pay_req <payment_request>`
 
 If the test is successful, the LSP node should open a channel to your mobile app and send the payment. You should see the payment in the transactions list in your mobile app.
