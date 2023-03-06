@@ -27,7 +27,7 @@ Run the following commands in order to open a channel and receive a payment:
 * From your mobile app, generate a payment request via **Receive > Receive via Invoice**.
 * From your terminal:
 1. Retrieve the LSP node pubkey: 
-> `docker exec dev-breez "/lnd/lncli" -network=simnet getinfo`
+> `docker exec dev-breez "/lnd/lncli" -network=simnet getinfo | jq '.identity_pubkey'`
 2. Generate 6 blocks: 
 > `docker exec dev-btcd /start-btcctl.sh generate 6`
 3. Generate a btc address for Alice: 
