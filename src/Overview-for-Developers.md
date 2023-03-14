@@ -26,10 +26,11 @@ Communication (calling functions) between Flutter to golang occurs via [this bri
 ### Adding a function to the Breez Library 
 
 #### Define the endpoint in Breez Library (golang):
-1. Use protoc version 3.15
-2. [Define the protobuf structure in golang](https://github.com/breez/breez/blob/master/data/messages.proto)
-3. Compile the proto: `protoc --proto_path=data --go_out=. data/messages.proto`
-4. [Add the endpoint to the binding package](https://github.com/breez/breez/blob/master/bindings/api.go)
+1. Use protoc version 3.15.8
+2. Use protoc-gen-go v1.28.0
+3. [Define the protobuf structure in golang](https://github.com/breez/breez/blob/master/data/messages.proto)
+4. Compile the proto: `protoc --proto_path=data --go_out=. --go-grpc_out=. data/messages.proto`
+5. [Add the endpoint to the binding package](https://github.com/breez/breez/blob/master/bindings/api.go)
 
 #### Define the caller in Breez Mobile (flutter):
 1. Compile the protobuf files in Flutter: `protoc --dart_out=grpc:lib/services/breezlib/data/ -I<path to messages.proto>`
