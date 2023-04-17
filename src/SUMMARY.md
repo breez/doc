@@ -15,6 +15,7 @@
 - [Using the _sendcoins_ command](./Sending-coins.md)
 - [Bitcoin Node Synchronization](./Bitcoin-node-synchronization.md)
 - [Connecting to a Bitcoin Node](./Connecting-a-Bitcoin-node-supporting-BIP-157.md)
+- [Does Breez support Tor?](./Tor-support.md)
 
 ------------------------
 
