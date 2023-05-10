@@ -21,6 +21,6 @@ No additional fees are incurred unless a new channel is required.
 ### Send to a BTC Address
 Sending to a BTC address involves a trustless [reverse swap](https://medium.com/breez-technology/reverse-submarine-swaps-another-step-towards-a-p2p-lightning-economy-bacb040fdca7). Reverse swaps require a minimum transaction amount of 50k sats. Please note that in a high fees environment, the minimum amount may be higher.
 
-Further, [Boltz](https://boltz.exchange/), the reverse swap provider, charges a fixed service fee of 0.6% plus an additional mining fee, which is based on the current bitcoin mempool usage.
+Further, [Boltz](https://boltz.exchange/), the reverse swap provider, charges a fixed service fee of 0.5% plus an additional mining fee, which is based on the current bitcoin mempool usage.
 ### Streaming sats to podcasts
 Breez charges no more than 5% of the sats listeners stream to creators.
