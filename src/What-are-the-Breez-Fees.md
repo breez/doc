@@ -7,7 +7,7 @@ Please note, however, that limiting fees may cause payments to fail.
 ### Receiving LN payments 
 Receiving a Lightning payment in Breez incurs no fees unless a new channel is required.
 ### Channel creation 
-When a new channel is required to accommodate an incoming payment, Breez charges 0.75% of the amount received, with a minimum of 2000 sats. For more information, see the _Channel creation on the fly_ section of [this blog post](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). 
+When a new channel is required to accommodate an incoming payment, Breez charges 0.75% of the amount received, with a minimum of 10000 sats. For more information, see the _Channel creation on the fly_ section of [this blog post](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). 
 
 Currently, Breez adds 50k sats of inbound liquidity to the amount received in an incoming payment. For example, if you receive 50k sats, and a new channel is required, Breez will create a new channel on the fly with a capacity of 100k sats.
 
@@ -19,8 +19,8 @@ Receiving from BTC address involves a trustless [submarine swap](Adding-Funds-vi
 
 No additional fees are incurred unless a new channel is required.
 ### Send to a BTC Address
-Sending to a BTC address involves a trustless [reverse swap](https://medium.com/breez-technology/reverse-submarine-swaps-another-step-towards-a-p2p-lightning-economy-bacb040fdca7). Reverse swaps require a minimum transaction amount of 50k sats.
+Sending to a BTC address involves a trustless [reverse swap](https://medium.com/breez-technology/reverse-submarine-swaps-another-step-towards-a-p2p-lightning-economy-bacb040fdca7). Reverse swaps require a minimum transaction amount of 50k sats. Please note that in a high fees environment, the minimum amount may be higher.
 
-Further, [Boltz](https://boltz.exchange/), the reverse swap provider, charges a fixed service fee of 0.4% plus an additional mining fee, which is based on the current bitcoin mempool usage.
+Further, [Boltz](https://boltz.exchange/), the reverse swap provider, charges a fixed service fee of 0.6% plus an additional mining fee, which is based on the current bitcoin mempool usage.
 ### Streaming sats to podcasts
 Breez charges no more than 5% of the sats listeners stream to creators.
