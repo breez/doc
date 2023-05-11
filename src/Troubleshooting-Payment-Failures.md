@@ -16,6 +16,8 @@ If you are trying to pay an invoice, but you see an error like **no route found*
 * Reset the Bitcoin Node by clicking the **Reset** button on the **Preferences > Network** screen.
  
 * Try refreshing the graph information. Click on three dots at the top right of the **Preferences > Developers** menu, then on **Update Graph**. Then re-open Breez, keep it in the foreground for a few minutes, and retry the payment. 
+
+* Try refreshing the private channels. Click on three dots at the top right of the **Preferences > Developers** menu, then on **Refresh Private Channels**. Then re-open Breez, keep it in the foreground for a few minutes, and retry the payment. 
  
 * Restart the Breez app and wait 30 seconds. Then, click on the **getinfo** command in the **Preferences > Developers > General** menu to check whether all the channels are active, which is the case when there's a "_0_" in the "_numOfInactiveChannels_" line.
  
