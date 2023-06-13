@@ -11,4 +11,5 @@ However, any Bitcoin node that supports block filters (BIP 157) can be used.
 If your node isn't syncing to the network, try the following steps:
 * Reset the Bitcoin node by clicking **Preferences > Network > Reset**. 
 * Disconnect any VPN or other intermediary software that might be interfering with network traffic.
+* Try recovering the chain information. Click on three dots at the top right of the **Preferences > Developers** menu, then on **Recover Chain Information**. Then re-open Breez, keep it in the foreground.
 * Try syncing with a different node listed [here](https://bitnodes.io/nodes/?q=NODE_COMPACT_FILTERS) and entering it in the **Preferences > Network** screen. Choose a regular IP address, not a Tor (.onion) address. 
