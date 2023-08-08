@@ -7,7 +7,7 @@ The Breez app is comprised of two main layers:
 ### [Breez Library](https://github.com/breez/breez)
 The Breez library is implemented in golang and is responsible for the application's business logic, Lightning/on-chain flows, and LND tight integration.
 * The library is compiled and packaged using [gobind](https://godoc.org/golang.org/x/mobile/cmd/gomobile), which creates a binding layer (the "binding" package) and a wrapping API in both java and swift that allow it to be invoked from the Android and iOS apps.
-* To build the library in Android using go1.13.4 or above, follow [these instructions](https://github.com/breez/breez/blob/master/README.md).
+* To build the library in Android using go1.19.x or above, follow [these instructions](https://github.com/breez/breez/blob/master/README.md).
 * All the functions/interfaces (APIs) that need to be exposed to the Breez mobile app are contained in [this file](https://github.com/breez/breez/blob/master/bindings/api.go).
 
 ### [Breez Mobile](https://github.com/breez/breezmobile)
