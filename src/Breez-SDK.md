@@ -4,4 +4,4 @@ For documentation related to the Breez SDK, please see:
 * Breez SDK [documentation](https://sdk-doc.breez.technology)
 * Breez SDK [API](https://breez.github.io/breez-sdk-rustdoc/doc/breez_sdk_core/) 
 
-Community support is provided in [this telegram group](https://t.me/breezsdk). To interact directly with the Breez team, please [message us](contact@breez.technology).
+The Breez SDK is free for developers. Community support is provided in [this telegram group](https://t.me/breezsdk). To interact directly with the Breez team, please [message us](contact@breez.technology).
