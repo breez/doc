@@ -4,8 +4,8 @@
 Routing fees depend on the available path. The Breez node charges a base fee of 1 sat in many cases, but fees for some channels are higher depending on the distribution of liquidity throughout the network. Users can limit fees either as a flat maximum or as a percentage of the transaction amount by clicking **Preferences > Lightning Fees** and entering the values desired. 
 
 Please note, however, that limiting fees may cause payments to fail.
-### Receiving LN payments 
-Receiving a Lightning payment in Breez incurs no fees unless a new channel is required.
+### Receiving Lightning payments 
+Receiving a Lightning payment in Breez incurs no fees for the receiver, unless a new channel is required.
 ### Channel creation 
 When a new channel is required to accommodate an incoming payment, Breez charges 0.4% of the amount received, with a minimum of 2500 sats. For more information, see the _Channel creation on the fly_ section of [this blog post](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). 
 
