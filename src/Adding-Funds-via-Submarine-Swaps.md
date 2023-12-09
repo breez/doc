@@ -15,4 +15,4 @@ Submarine swaps allow Breez to support on-chain transactions while maintaining a
 * Each transaction must be completed with a new, single-use address. Sending multiple transactions to the same address will trigger a refund. 
 
 ### How can users claim their refunds?
-Once the funds are ready to be redeemed (about 48 hours after the on-chain transaction has been confirmed), a **Get Refund** option will appear in the Breez side-menu. Click on it and enter an on-chain BTC address when prompted. The funds will be sent to the address entered. 
+If users are unable to claim their funds via Lightning within 288 blocks, a **Get Refund** option will appear in the Breez side-menu after the deadline (about 48 hours after the on-chain transaction has been confirmed). Click on it and enter an on-chain BTC address when prompted. The funds will be sent to the address entered. 
