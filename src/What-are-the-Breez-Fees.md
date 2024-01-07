@@ -7,7 +7,7 @@ Please note, however, that limiting fees may cause payments to fail.
 ### Receiving Lightning payments 
 Receiving a Lightning payment in Breez incurs no fees for the receiver, unless a new channel is required.
 ### Channel creation 
-When a new channel is required to accommodate an incoming payment, Breez charges 1% of the amount received, with a minimum of 25000 sats. For more information, see the _Channel creation on the fly_ section of [this blog post](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). 
+When a new channel is required to accommodate an incoming payment, Breez charges 0.4% of the amount received, with a dynamic minimum fee (based on the current mempool fees). For more information, see the _Channel creation on the fly_ section of [this blog post](https://medium.com/breez-technology/the-breez-release-candidate-getting-lightning-ready-for-the-global-takeover-b5d1f9756229). 
 
 The Breez SDK fees are different. Please use the [LSP information API](https://sdk-doc.breez.technology/guide/connecting_lsp.html#channel-opening-fees) to retrieve the fees structure for your specific LSP.
 
