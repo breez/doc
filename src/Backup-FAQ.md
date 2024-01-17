@@ -20,11 +20,11 @@ Google Drive users can manage their Breez storage by opening Google Drive in a b
 ### Can I switch from Android to iOS and vice versa?
 Yes, by storing your backup in Google Drive or on a remove server that is supported on both platforms. To switch cloud provider, use the **Store Backup Data in** setting on the **Preferences > Security & Backup** screen.
 ### I can't authenticate to Nextcloud. What can I do?
-Create an [app password](https://docs.nextcloud.com/server/latest/admin_manual/configuration_user/two_factor-auth.html), enter the new app credentials and retry. If the standard Nextcloud URL doesn't work try the following:
+Create an [app password](https://docs.nextcloud.com/server/latest/admin_manual/configuration_user/two_factor-auth.html), enter the new app credentials and retry. If the standard Nextcloud URL doesn't work, please try the following:
 * Go you your Nextcloud instance using your browser.
 * Select the **Files** pane.
 * Scroll down on the left bar and select **File Settings**.
-* Under **WebDAV** copy the URL and use this when attempting to sign in.
+* Under **WebDAV** copy the URL and use it when attempting to sign in.
 ### Do you support pCloud?
 Yes, but a business account is required (with WebDav support). The URL should be entered in the following format:
 * pCloud (US): <code>https://webdav.pcloud.com</code>
