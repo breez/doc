@@ -29,11 +29,6 @@
 
 -------------------------
 
-# For Node Operators
-- [Open a Channel with Breez Public Node](Open-a-Channel-with-Breez-Public-Node.md)
-
--------------------------
-
 # For Developers
 - [Breez SDK](Breez-SDK.md)
 - [Overview for Breez Mobile Developers](Overview-for-Developers.md)
