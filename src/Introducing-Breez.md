@@ -1,4 +1,4 @@
-# Introducing Breez
+# Introducing Breez Mobile
 
 Breez is a full-service, non-custodial Lightning client. Let’s break that down:
 
