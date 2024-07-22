@@ -1,5 +1,7 @@
 # Summary
-[Introducing Breez](./Introducing-Breez.md)
+
+[About Breez](./about_breez.md)
+[Introducing Breez Mobile](./Introducing-Breez.md)
 
 ------------------------
 
