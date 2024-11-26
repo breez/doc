@@ -19,6 +19,8 @@ Backup files are stored in a private data directory accessible only through the 
 Google Drive users can manage their Breez storage by opening Google Drive in a browser and clicking on **Settings > Manage Apps**.
 ### Can I switch from Android to iOS and vice versa?
 Yes, by storing your backup in Google Drive or on a remove server that is supported on both platforms. To switch cloud provider, use the **Store Backup Data in** setting on the **Preferences > Security & Backup** screen.
+### Can I switch between Google Accounts for backups?
+Yes, but switching accounts may require extra setup. Ensure you grant Breez the necessary access permissions, and disable two-factor authentication (2FA) if needed to avoid backup authentication errors.
 ### I can't authenticate to Nextcloud. What can I do?
 Create an [app password](https://docs.nextcloud.com/server/latest/admin_manual/configuration_user/two_factor-auth.html), enter the new app credentials and retry. If the standard Nextcloud URL doesn't work, please try the following:
 * Go you your Nextcloud instance using your browser.
