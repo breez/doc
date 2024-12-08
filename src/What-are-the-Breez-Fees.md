@@ -1,7 +1,7 @@
 # What fees are there in Breez?
 
 ### Sending Lightning Payments
-Routing fees depend on the available path. The Breez node charges a base fee of 1 sat in many cases, but fees for some channels are higher depending on the distribution of liquidity throughout the network. Users can limit fees either as a flat maximum or as a percentage of the transaction amount by clicking **Preferences > Lightning Fees** and entering the values desired. 
+Routing fees depend on the available path and for some channels are higher depending on the distribution of liquidity throughout the network. Users can limit fees either as a flat maximum or as a percentage of the transaction amount by clicking **Preferences > Lightning Fees** and entering the values desired. 
 
 Please note, however, that limiting fees may cause payments to fail.
 ### Receiving Lightning payments 
