@@ -4,19 +4,19 @@
 
 To provide the best experience for end-users, developers can choose between the following implementations:
 
-* [Breez SDK - *Greenlight*](https://github.com/breez/breez-sdk)
-* [Breez SDK - *Liquid*](https://github.com/breez/breez-sdk-liquid)
+* [Breez SDK - Native *(Greenlight Implementation)*](https://github.com/breez/breez-sdk-greenlight)
+* [Breez SDK - Nodeless *(Liquid Implementation)*](https://github.com/breez/breez-sdk-liquid)
 
-## Breez SDK - *Greenlight*
+## Breez SDK - Native *(Greenlight Implementation)*
 
-For documentation related to the Breez SDK - *Greenlight*, please see:
-* [Repository](https://github.com/breez/breez-sdk)
+For documentation related to the Breez SDK - Native *(Greenlight Implementation)*, please see:
+* [Repository](https://github.com/breez/breez-sdk-greenlight)
 * [Documentation](https://sdk-doc.breez.technology)
-* [API](https://breez.github.io/breez-sdk/breez_sdk_core/)
+* [API](https://breez.github.io/breez-sdk-greenlight/breez_sdk_core/)
 
-## Breez SDK - *Liquid*
+## Breez SDK - Nodeless *(Liquid Implementation)*
 
-For documentation related to the Breez SDK - *Liquid*, please see:
+For documentation related to the Breez SDK - Nodeless *(Liquid Implementation)*, please see:
 * [Repository](https://github.com/breez/breez-sdk-liquid)
 * [Documentation](https://sdk-doc-liquid.breez.technology/)
 * [API](https://breez.github.io/breez-sdk-liquid/breez_sdk_liquid/)
