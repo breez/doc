@@ -8,3 +8,10 @@ title = "Breez Knowledge Base"
 [output.html]
 default-theme = "navy"
 preferred-dark-theme = "navy"
+no-section-label = true
+
+[output.html.fold]
+enable = true
+
+[output.html.print]
+enable = false
