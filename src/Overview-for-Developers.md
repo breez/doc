@@ -33,8 +33,11 @@ Communication (calling functions) between Flutter to golang occurs via [this bri
 5. [Add the endpoint to the binding package](https://github.com/breez/breez/blob/master/bindings/api.go)
 
 #### Define the caller in Breez Mobile (flutter):
-1. Compile the protobuf files in Flutter: `protoc --dart_out=grpc:lib/services/breezlib/data/ -I<path to messages.proto>`
-2. [Add the function in breez_bridge.dart](https://github.com/breez/breezmobile/blob/master/lib/services/breezlib/breez_bridge.dart)
+1. Use protoc_plugin v20.0.1: `dart pub global activate protoc_plugin v20.0.1`
+2. [Create a symbol link:](https://github.com/breez/breezmobile/blob/master/lib/services/breezlib/protobuf/README.md) `ln -s <path/to/breez/data/messages.proto> lib/services/breezlib/protobuf/messages.proto`
+3. [Compile the protobuf files in Flutter:](https://github.com/breez/breezmobile/blob/master/lib/services/breezlib/breez_bridge.dart#L22) `protoc --dart_out=grpc:lib/services/breezlib/data/ -Ilib/services/breezlib/protobuf/ lib/services/breezlib/protobuf/messages.proto`
+4. [Add the function in breez_bridge.dart](https://github.com/breez/breezmobile/blob/master/lib/services/breezlib/breez_bridge.dart)
+5. [Add the function in NativeMethods.swift](https://github.com/breez/breezmobile/blob/master/ios/Plugins/Breez/BreezLib/NativeMethods.swift#L20)
 
 ### Your Development Environment
 We recommend you [setup a simnet environment](Running-Breez-in-simnet.md) before testing your code on mainnet.
