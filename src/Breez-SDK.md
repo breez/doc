@@ -4,15 +4,15 @@
 
 To provide the best experience for end-users, developers can choose between the following implementations:
 
-* [Breez SDK - Native *(Greenlight Implementation)*](https://github.com/breez/breez-sdk-greenlight)
+* [Breez SDK - Nodeless *(Spark Implementation)*](https://github.com/breez/spark-sdk)
 * [Breez SDK - Nodeless *(Liquid Implementation)*](https://github.com/breez/breez-sdk-liquid)
 
-## Breez SDK - Native *(Greenlight Implementation)*
+## Breez SDK - Nodeless *(Spark Implementation)*
 
-For documentation related to the Breez SDK - Native *(Greenlight Implementation)*, please see:
-* [Repository](https://github.com/breez/breez-sdk-greenlight)
-* [Documentation](https://sdk-doc.breez.technology)
-* [API](https://breez.github.io/breez-sdk-greenlight/breez_sdk_core/)
+For documentation related to the Breez SDK - Nodeless *(Spark Implementation)*, please see:
+* [Repository](https://github.com/breez/spark-sdk)
+* [Documentation](https://sdk-doc-spark.breez.technology/)
+* [API](https://breez.github.io/spark-sdk/breez_sdk_spark//)
 
 ## Breez SDK - Nodeless *(Liquid Implementation)*
 
