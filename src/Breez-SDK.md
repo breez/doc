@@ -4,19 +4,19 @@
 
 To provide the best experience for end-users, developers can choose between the following implementations:
 
-* [Breez SDK - Nodeless *(Spark Implementation)*](https://github.com/breez/spark-sdk)
-* [Breez SDK - Nodeless *(Liquid Implementation)*](https://github.com/breez/breez-sdk-liquid)
+* [Breez SDK - Spark](https://github.com/breez/spark-sdk)
+* [Breez SDK - Liquid](https://github.com/breez/breez-sdk-liquid)
 
-## Breez SDK - Nodeless *(Spark Implementation)*
+## Breez SDK - Spark
 
-For documentation related to the Breez SDK - Nodeless *(Spark Implementation)*, please see:
+For documentation related to the Breez SDK - Spark, please see:
 * [Repository](https://github.com/breez/spark-sdk)
 * [Documentation](https://sdk-doc-spark.breez.technology/)
 * [API](https://breez.github.io/spark-sdk/breez_sdk_spark//)
 
-## Breez SDK - Nodeless *(Liquid Implementation)*
+## Breez SDK - Liquid
 
-For documentation related to the Breez SDK - Nodeless *(Liquid Implementation)*, please see:
+For documentation related to the Breez SDK - Liquid, please see:
 * [Repository](https://github.com/breez/breez-sdk-liquid)
 * [Documentation](https://sdk-doc-liquid.breez.technology/)
 * [API](https://breez.github.io/breez-sdk-liquid/breez_sdk_liquid/)
